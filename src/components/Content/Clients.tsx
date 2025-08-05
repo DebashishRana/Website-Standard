@@ -23,7 +23,7 @@ export const ClientsSection = () => {
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-2xl font-poppins font-bold text-gray-800 sm:text-4xl sm:leading-tight">
-            Trusted by world class companies, design teams & popular designers
+            Trusted and featured by:
           </h2>
         </div>
 

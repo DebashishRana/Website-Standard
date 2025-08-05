@@ -4,10 +4,45 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Custom background image */
+body {
+  background-image: url('/images/bg-pattern.jpg'); /* Change this path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
+/* Alternative: Subtle pattern overlay */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/images/subtle-pattern.png'); /* Optional overlay pattern */
+  opacity: 0.1;
+  z-index: -1;
+  pointer-events: none;
+}
+
+main {
+  background: transparent;
+}
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+  
+  /* Custom background utilities */
+  .bg-image-overlay {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent overlay for readability */
+    backdrop-filter: blur(5px);
+  }
+  
+  .bg-gradient-overlay {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(248, 250, 252, 0.8) 100%);
   }
 }

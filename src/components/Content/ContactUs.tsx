@@ -52,7 +52,7 @@ export const ContactUs = () => {
               Contact us
             </h2>
             <p className="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-500">
-              Get in Touch with Us Today to Elevate Your Recruitment Strategy
+              Get in Touch with Us to streamline your paperworks
             </p>
           </div>
 
@@ -68,11 +68,9 @@ export const ContactUs = () => {
                     className="text-neutral-content mx-auto"
                   />
                   <p className="mt-6 text-lg font-medium text-neutral">
-                    +1-123-456-1890
+                    +91 9304211754
                   </p>
-                  <p className="mt-1 text-lg font-medium text-neutral">
-                    +1-123-456-1890
-                  </p>
+                  
                 </div>
               </motion.div>
 
@@ -86,10 +84,10 @@ export const ContactUs = () => {
                     className="text-neutral-content mx-auto"
                   />
                   <p className="mt-6 text-lg font-medium text-neutral">
-                    contact@example.com
+                    contact@veriquick.in
                   </p>
                   <p className="mt-1 text-lg font-medium text-neutral">
-                    info@example.com
+                    support@veriquick.in
                   </p>
                 </div>
               </motion.div>
@@ -101,7 +99,7 @@ export const ContactUs = () => {
                 <div className="p-6">
                   <PinIcon size={32} className="text-neutral-content mx-auto" />
                   <p className="mt-6 text-lg font-medium leading-relaxed text-neutral">
-                    8502 Some Rd. SomeWhere, CITY 98380, USA
+                    Hinoo.Ranchi, Jharkhand, IN
                   </p>
                 </div>
               </motion.div>

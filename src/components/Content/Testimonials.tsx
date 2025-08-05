@@ -99,8 +99,7 @@ export const Testimonials = () => {
 
                         <blockquote className="flex-1 mt-8">
                           <p className="text-lg leading-relaxed text-neutral font-pj">
-                            “This has been an incredible solution that has
-                            transformed our hiring process!”
+                            “ Amazingly intuitive and user-friendly platform!and most importanly it works and saves alot of time”
                           </p>
                         </blockquote>
                       </div>
@@ -113,10 +112,10 @@ export const Testimonials = () => {
                         />
                         <div className="ml-4">
                           <p className="text-base font-bold text-neutral font-pj">
-                            Leslie Alexander
+                            Narendra Rana
                           </p>
                           <p className="mt-0.5 text-sm font-pj text-gray-600">
-                            CEO, Googee
+                            Founder, RVG plants
                           </p>
                         </div>
                       </div>

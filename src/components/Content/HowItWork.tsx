@@ -9,9 +9,7 @@ export const HowItWork = () => {
             How does it work?
           </h2>
           <p className="max-w-lg mx-auto mt-4 text-base leading-relaxed text-gray-600">
-            Effortlessly Navigate the Hiring Process with Our Intuitive
-            Platform.
-          </p>
+            Effortlessly Navigate the paperwork process with our automation       </p>
         </div>
 
         <div className="relative mt-12 lg:mt-20">
@@ -29,11 +27,10 @@ export const HowItWork = () => {
                 <span className="text-xl font-semibold text-white"> 1 </span>
               </div>
               <h3 className="mt-6 text-xl font-semibold leading-tight text-black md:mt-10">
-                Candidate Sourcing
+                Upload your documents
               </h3>
               <p className="mt-4 text-base text-gray-600">
-                Tap into our AI-powered algorithms to effortlessly discover and
-                attract top talent from diverse channels.
+                Easily upload your documents and generate a unique QR code to access them—on your terms.
               </p>
             </div>
 
@@ -42,11 +39,10 @@ export const HowItWork = () => {
                 <span className="text-xl font-semibold text-white"> 2 </span>
               </div>
               <h3 className="mt-6 text-xl font-semibold leading-tight text-black md:mt-10">
-                Candidate Sourcing
+                Get your QR scanned
               </h3>
               <p className="mt-4 text-base text-gray-600">
-                Tap into our AI-powered algorithms to effortlessly discover and
-                attract top talent from diverse channels.
+                Get your QR scanned in our veriquick integrated workplaces to digitally load authenticate and securly store your data without paperwork
               </p>
             </div>
 
@@ -55,11 +51,10 @@ export const HowItWork = () => {
                 <span className="text-xl font-semibold text-white"> 3 </span>
               </div>
               <h3 className="mt-6 text-xl font-semibold leading-tight text-black md:mt-10">
-                Candidate Sourcing
+                Set Back and relax
               </h3>
               <p className="mt-4 text-base text-gray-600">
-                Tap into our AI-powered algorithms to effortlessly discover and
-                attract top talent from diverse channels.
+                After getting the authentication soundeffect and notification sit back and enjoy the time and peace of mind youd deserve
               </p>
             </div>
           </div>
