@@ -11,9 +11,9 @@ export const Footer = () => {
     <section className="py-10 bg-gray-50 sm:pt-16 lg:pt-24">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="grid grid-cols-2 md:col-span-3 lg:grid-cols-6 gap-y-16 gap-x-12">
-          <div className="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
+          <div className="col-span-2 md:col-span-j3 lg:col-span-2 lg:pr-8">
             <p className="text-base leading-relaxed text-gray-600 mt-7">
-              VeriQuick™️ is a private project. The source code, design, concept, and all related intellectual property are exclusively owned by the creator. Unauthorized copying, distribution, or commercial use is strictly prohibited.
+              VeriQuick  ™️ Veri-Quick Scanner is private, proprietary software developed by Debashish Rana. Access, use, or modification of this code is strictly prohibited without explicit permission from the owner. Unauthorized actions will result in legal consequences. This software is protected under copyright law.
             </p>
 
             <ul className="flex items-center space-x-3 mt-9">
@@ -176,7 +176,7 @@ export const Footer = () => {
         <p className="text-sm text-center text-gray-600">
           © Copyright 2025, All Rights Reserved,{" "}
           <a target="_blank" href="https://mohitchandel.in">
-            Created By Debashish Rana
+            Created By team Forge X for St. Xaviers Startup Xpress Competition
           </a>
         </p>
       </div>

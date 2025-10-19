@@ -79,49 +79,113 @@ export const Testimonials = () => {
               </div>
 
               <div className="relative grid max-w-lg grid-cols-1 gap-6 mx-auto md:max-w-none lg:gap-10 md:grid-cols-3">
-                {[...Array(3)].map((_, index) => (
-                  <motion.div
-                    key={index}
-                    variants={cardVariants}
-                    className="flex flex-col overflow-hidden shadow-xl"
-                  >
-                    <div className="flex flex-col justify-between flex-1 p-6 bg-white lg:py-8 lg:px-7">
-                      <div className="flex-1">
-                        <div className="flex items-center">
-                          {[...Array(5)].map((_, starIndex) => (
-                            <StarIcon
-                              key={starIndex}
-                              size={18}
-                              className="text-neutral"
-                            />
-                          ))}
-                        </div>
-
-                        <blockquote className="flex-1 mt-8">
-                          <p className="text-lg leading-relaxed text-neutral font-pj">
-                            “ Amazingly intuitive and user-friendly platform!and most importanly it works and saves alot of time”
-                          </p>
-                        </blockquote>
+                {/* Review 1: Pankhuri */}
+                <motion.div
+                  variants={cardVariants}
+                  className="flex flex-col overflow-hidden shadow-xl"
+                >
+                  <div className="flex flex-col justify-between flex-1 p-6 bg-white lg:py-8 lg:px-7">
+                    <div className="flex-1">
+                      <div className="flex items-center">
+                        {[...Array(5)].map((_, starIndex) => (
+                          <StarIcon
+                            key={starIndex}
+                            size={18}
+                            className="text-neutral"
+                          />
+                        ))}
                       </div>
-
-                      <div className="flex items-center mt-8">
-                        <img
-                          className="flex-shrink-0 object-cover rounded-full w-11 h-11"
-                          src="https://cdn.rareblocks.xyz/collection/clarity/images/testimonial/4/avatar-male-1.png"
-                          alt=""
-                        />
-                        <div className="ml-4">
-                          <p className="text-base font-bold text-neutral font-pj">
-                            Narendra Rana
-                          </p>
-                          <p className="mt-0.5 text-sm font-pj text-gray-600">
-                            Founder, RVG plants
-                          </p>
-                        </div>
+                      <blockquote className="flex-1 mt-8">
+                        <p className="text-lg leading-relaxed text-neutral font-pj">
+                          “The upload and verification process was super smooth. I could access my documents instantly!”
+                        </p>
+                      </blockquote>
+                    </div>
+                    <div className="flex items-center mt-8">
+                      <img
+                        className="flex-shrink-0 object-cover rounded-full w-11 h-11"
+                        src="https://cdn.rareblocks.xyz/collection/clarity/images/testimonial/4/avatar-female-1.png"
+                        alt=""
+                      />
+                      <div className="ml-4">
+                        <p className="text-base font-bold text-neutral font-pj">Pankhuri</p>
+                        <p className="mt-0.5 text-sm font-pj text-gray-600">Student</p>
                       </div>
                     </div>
-                  </motion.div>
-                ))}
+                  </div>
+                </motion.div>
+
+                {/* Review 2: Narendra */}
+                <motion.div
+                  variants={cardVariants}
+                  className="flex flex-col overflow-hidden shadow-xl"
+                >
+                  <div className="flex flex-col justify-between flex-1 p-6 bg-white lg:py-8 lg:px-7">
+                    <div className="flex-1">
+                      <div className="flex items-center">
+                        {[...Array(5)].map((_, starIndex) => (
+                          <StarIcon
+                            key={starIndex}
+                            size={18}
+                            className="text-neutral"
+                          />
+                        ))}
+                      </div>
+                      <blockquote className="flex-1 mt-8">
+                        <p className="text-lg leading-relaxed text-neutral font-pj">
+                          “Amazingly intuitive and user-friendly platform! And most importantly, it works and saves a lot of time.”
+                        </p>
+                      </blockquote>
+                    </div>
+                    <div className="flex items-center mt-8">
+                      <img
+                        className="flex-shrink-0 object-cover rounded-full w-11 h-11"
+                        src="https://cdn.rareblocks.xyz/collection/clarity/images/testimonial/4/avatar-male-1.png"
+                        alt=""
+                      />
+                      <div className="ml-4">
+                        <p className="text-base font-bold text-neutral font-pj">Narendra Rana</p>
+                        <p className="mt-0.5 text-sm font-pj text-gray-600">Founder, RVG plants</p>
+                      </div>
+                    </div>
+                  </div>
+                </motion.div>
+
+                {/* Review 3: Dave */}
+                <motion.div
+                  variants={cardVariants}
+                  className="flex flex-col overflow-hidden shadow-xl"
+                >
+                  <div className="flex flex-col justify-between flex-1 p-6 bg-white lg:py-8 lg:px-7">
+                    <div className="flex-1">
+                      <div className="flex items-center">
+                        {[...Array(5)].map((_, starIndex) => (
+                          <StarIcon
+                            key={starIndex}
+                            size={18}
+                            className="text-neutral"
+                          />
+                        ))}
+                      </div>
+                      <blockquote className="flex-1 mt-8">
+                        <p className="text-lg leading-relaxed text-neutral font-pj">
+                          “The QR code feature is a game changer. Document verification is now instant and secure!”
+                        </p>
+                      </blockquote>
+                    </div>
+                    <div className="flex items-center mt-8">
+                      <img
+                        className="flex-shrink-0 object-cover rounded-full w-11 h-11"
+                        src="https://cdn.rareblocks.xyz/collection/clarity/images/testimonial/4/avatar-male-2.png"
+                        alt=""
+                      />
+                      <div className="ml-4">
+                        <p className="text-base font-bold text-neutral font-pj">Dave</p>
+                        <p className="mt-0.5 text-sm font-pj text-gray-600">IT Manager</p>
+                      </div>
+                    </div>
+                  </div>
+                </motion.div>
               </div>
             </motion.div>
           </motion.div>

@@ -48,18 +48,19 @@ export const HeroSection = () => {
                 transition={{ duration: 0.7 }}
                 className="badge py-4 badge-neutral text-poppins"
               >
-                <RocketIcon className="text-primary-content" size={"18"} />{" "}
-                &nbsp; Savvy paperless documentation and verification for workplaces.{" "}
+                <RocketIcon className="text-primary-content" size={"14"} />{" "}
+                &nbsp; Next Gen Documentation starts here {" "}
               </motion.div>
               <motion.h2
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.7 }}
-                className="mt-5 text-6xl leading-2 text-gray-900 sm:leading-tight md:text-6xl lg:text-6xl  font-poppins font-bold"
+                className="mt-5 text-7xl leading-2 text-gray-900 sm:leading-tight md:text-8xl lg:text-9xl  font-poppins font-bold"
               >
-                Effortlessly Streamline{" "}
-                <span className="bg-gradient-to-r from-blue-400 via-violet-300 to-purple-400 inline-block text-transparent bg-clip-text">
-                   Documentation and Verification
+                Let's make it paperless {" "}
+                <br />
+                <span className="bg-gradient-to-r from-blue-400 via-violet-400 to-purple-500 inline-block text-transparent bg-clip-text">
+                  Make it Quick
                 </span>{" "}
                 
               </motion.h2>
@@ -75,7 +76,7 @@ export const HeroSection = () => {
                   title="Get more users"
                   className="btn btn-outline"
                 >
-                  Let's Make things quick
+                  S 
                 </Link>
 
                 <Link href="#" title="Watch demo" className="btn btn-neutral">

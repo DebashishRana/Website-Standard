@@ -86,9 +86,8 @@ export const ContactUs = () => {
                   <p className="mt-6 text-lg font-medium text-neutral">
                     contact@veriquick.in
                   </p>
-                  <p className="mt-1 text-lg font-medium text-neutral">
-                    support@veriquick.in
-                  </p>
+                
+                  
                 </div>
               </motion.div>
 

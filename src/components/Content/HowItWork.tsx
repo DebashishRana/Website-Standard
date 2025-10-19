@@ -9,7 +9,8 @@ export const HowItWork = () => {
             How does it work?
           </h2>
           <p className="max-w-lg mx-auto mt-4 text-base leading-relaxed text-gray-600">
-            Effortlessly Navigate the paperwork process with our automation       </p>
+            Our secure and seamless process makes document verification effortless for users and organizations.
+          </p>
         </div>
 
         <div className="relative mt-12 lg:mt-20">
@@ -27,10 +28,10 @@ export const HowItWork = () => {
                 <span className="text-xl font-semibold text-white"> 1 </span>
               </div>
               <h3 className="mt-6 text-xl font-semibold leading-tight text-black md:mt-10">
-                Upload your documents
+                Upload Your Documents
               </h3>
               <p className="mt-4 text-base text-gray-600">
-                Easily upload your documents and generate a unique QR code to access them—on your terms.
+                The client securely uploads documents directly through our application. All files are encrypted and transferred to our protected servers.
               </p>
             </div>
 
@@ -39,10 +40,10 @@ export const HowItWork = () => {
                 <span className="text-xl font-semibold text-white"> 2 </span>
               </div>
               <h3 className="mt-6 text-xl font-semibold leading-tight text-black md:mt-10">
-                Get your QR scanned
+                QR Code Generation
               </h3>
               <p className="mt-4 text-base text-gray-600">
-                Get your QR scanned in our veriquick integrated workplaces to digitally load authenticate and securly store your data without paperwork
+                Once uploaded, a unique QR code is instantly generated for each document. This QR code acts as a secure digital key for access and verification.
               </p>
             </div>
 
@@ -51,10 +52,10 @@ export const HowItWork = () => {
                 <span className="text-xl font-semibold text-white"> 3 </span>
               </div>
               <h3 className="mt-6 text-xl font-semibold leading-tight text-black md:mt-10">
-                Set Back and relax
+                Scan & Verify Instantly
               </h3>
               <p className="mt-4 text-base text-gray-600">
-                After getting the authentication soundeffect and notification sit back and enjoy the time and peace of mind youd deserve
+                Scanning the QR code loads the document on any monitor and verifies its authenticity in real time, providing a seamless and secure verification process.
               </p>
             </div>
           </div>

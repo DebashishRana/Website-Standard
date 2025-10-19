@@ -69,7 +69,7 @@ export const NavigationBar = () => {
           </div>
           <a className="btn btn-ghost text-xl">
             <RocketIcon />
-            SaaSLP
+              
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">

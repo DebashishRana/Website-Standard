@@ -47,7 +47,7 @@ export const Features = () => {
             transition={{ duration: 0.4 }}
             className="font-poppins text-3xl font-bold leading-tight text-gray-900 sm:text-4xl xl:text-5xl"
           >
-            Revolutionize Paperwork and Documentation with Our Cutting-Edge Technology
+            Cutting edge technology for a seamless experience
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 8 }}
@@ -55,124 +55,112 @@ export const Features = () => {
             transition={{ duration: 0.5 }}
             className="mt-4 text-base leading-7 text-gray-600 sm:mt-8"
           >
-            Streamline Document Acquisition, Simplify Workflow, and Enhance Efficiency
+            Dital Documentation, Verification and cloud storae all under one roof
           </motion.p>
         </div>
 
         <div className="grid grid-cols-1 gap-6 mt-10 text-center sm:mt-16 sm:grid-cols-2 md:grid-cols-3 xl:mt-24">
-          {/* Card 1 */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.98 }}
-            animate={hasAnimated ? { opacity: 1, scale: 1 } : {}}
-            transition={{ duration: 0.6 }}
-            variants={cardHoverVariants}
-            whileHover="hover"
-            whileTap={{ scale: 0.99 }}
-            className={`${cardBase} hover:bg-black hover:text-white`}
-          >
-            <BrainCircuitIcon className="mx-auto text-current" size={32} />
-            <h3 className="mt-8 text-xl font-bold text-current font-pj">
-              AI-Powered Document Verification
-            </h3>
-            <p className="mt-4 text-base text-current font-pj">
-              Utilize advanced AI algorithms to identify and verify documents with unparalleled accuracy, ensuring authenticity and compliance.
-            </p>
-          </motion.div>
+            {/* Card 1: 100% Paperless */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.98 }}
+              animate={hasAnimated ? { opacity: 1, scale: 1 } : {}}
+              transition={{ duration: 0.6 }}
+              variants={cardHoverVariants}
+              whileHover="hover"
+              whileTap={{ scale: 0.99 }}
+              className={`${cardBase} hover:bg-black hover:text-white`}
+            >
+              <BrainCircuitIcon className="mx-auto text-current" size={32} />
+              <h3 className="mt-8 text-xl font-bold text-current font-pj">100% Paperless</h3>
+              <p className="mt-4 text-base text-current font-pj">
+                Enjoy a fully digital experience—no physical documents required. All processes are handled online for maximum convenience and speed.
+              </p>
+            </motion.div>
 
-          {/* Card 2 */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.98 }}
-            animate={hasAnimated ? { opacity: 1, scale: 1 } : {}}
-            transition={{ duration: 0.7 }}
-            variants={cardHoverVariants}
-            whileHover="hover"
-            whileTap={{ scale: 0.99 }}
-            className={`${cardBase} hover:bg-black hover:text-white`}
-          >
-            <MousePointer2 className="mx-auto text-current" size={32} />
-            <h3 className="mt-8 text-xl font-bold text-current font-pj">
-              Blazing Fast Verification
-            </h3>
-            <p className="mt-4 text-base text-current font-pj">
-              Streamline verification with a fast, reliable engine that reduces wait time and keeps workflows moving.
-            </p>
-          </motion.div>
+            {/* Card 2: Immediate Response */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.98 }}
+              animate={hasAnimated ? { opacity: 1, scale: 1 } : {}}
+              transition={{ duration: 0.7 }}
+              variants={cardHoverVariants}
+              whileHover="hover"
+              whileTap={{ scale: 0.99 }}
+              className={`${cardBase} hover:bg-black hover:text-white`}
+            >
+              <Clock10Icon className="mx-auto text-current" size={32} />
+              <h3 className="mt-8 text-xl font-bold text-current font-pj">Immediate Response</h3>
+              <p className="mt-4 text-base text-current font-pj">
+                Get instant feedback and verification. Our platform ensures your requests are processed and responded to in real time.
+              </p>
+            </motion.div>
 
-          {/* Card 3 */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.98 }}
-            animate={hasAnimated ? { opacity: 1, scale: 1 } : {}}
-            transition={{ duration: 0.8 }}
-            variants={cardHoverVariants}
-            whileHover="hover"
-            whileTap={{ scale: 0.99 }}
-            className={`${cardBase} hover:bg-black hover:text-white`}
-          >
-            <Settings2Icon className="mx-auto text-current" size={32} />
-            <h3 className="mt-8 text-xl font-bold text-current font-pj">
-              We value your Privacy
-            </h3>
-            <p className="mt-4 text-base text-current font-pj">
-              Our application ensures that your data is secure and confidential, adhering to modern privacy standards and best practices.
-            </p>
-          </motion.div>
+            {/* Card 3: Easy to Access */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.98 }}
+              animate={hasAnimated ? { opacity: 1, scale: 1 } : {}}
+              transition={{ duration: 0.8 }}
+              variants={cardHoverVariants}
+              whileHover="hover"
+              whileTap={{ scale: 0.99 }}
+              className={`${cardBase} hover:bg-black hover:text-white`}
+            >
+              <MousePointer2 className="mx-auto text-current" size={32} />
+              <h3 className="mt-8 text-xl font-bold text-current font-pj">Easy to Access</h3>
+              <p className="mt-4 text-base text-current font-pj">
+                Access Store and verify your account from any device, anywhere, anytime. Our responsive design ensures a seamless experience across all platforms.
+              </p>
+            </motion.div>
 
-          {/* Card 4 */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.98 }}
-            animate={hasAnimated ? { opacity: 1, scale: 1 } : {}}
-            transition={{ duration: 0.9 }}
-            variants={cardHoverVariants}
-            whileHover="hover"
-            whileTap={{ scale: 0.99 }}
-            className={`${cardBase} hover:bg-black hover:text-white`}
-          >
-            <Clock10Icon className="mx-auto text-current" size={32} />
-            <h3 className="mt-8 text-xl font-bold text-current font-pj">
-              Automated Data Deletion
-            </h3>
-            <p className="mt-4 text-base text-current font-pj">
-              To maximize privacy, data is automatically deleted after 30 days, reducing retention risk and exposure.
-            </p>
-          </motion.div>
+            {/* Card 4: Latest Technology */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.98 }}
+              animate={hasAnimated ? { opacity: 1, scale: 1 } : {}}
+              transition={{ duration: 0.9 }}
+              variants={cardHoverVariants}
+              whileHover="hover"
+              whileTap={{ scale: 0.99 }}
+              className={`${cardBase} hover:bg-black hover:text-white`}
+            >
+              <Settings2Icon className="mx-auto text-current" size={32} />
+              <h3 className="mt-8 text-xl font-bold text-current font-pj">Latest Technology</h3>
+              <p className="mt-4 text-base text-current font-pj">
+                Benefit from the most advanced technology and algorithms, ensuring fast, reliable, and intelligent service delivery.
+              </p>
+            </motion.div>
 
-          {/* Card 5 */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.98 }}
-            animate={hasAnimated ? { opacity: 1, scale: 1 } : {}}
-            transition={{ duration: 1 }}
-            variants={cardHoverVariants}
-            whileHover="hover"
-            whileTap={{ scale: 0.99 }}
-            className={`${cardBase} hover:bg-black hover:text-white`}
-          >
-            <PhoneCallIcon className="mx-auto text-current" size={32} />
-            <h3 className="mt-8 text-xl font-bold text-current font-pj">
-              Centralized Communication Hub
-            </h3>
-            <p className="mt-4 text-base text-current font-pj">
-              Centralize all document-related discussions and approvals in one place, improving collaboration and traceability.
-            </p>
-          </motion.div>
+            {/* Card 5: Streamlined */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.98 }}
+              animate={hasAnimated ? { opacity: 1, scale: 1 } : {}}
+              transition={{ duration: 1 }}
+              variants={cardHoverVariants}
+              whileHover="hover"
+              whileTap={{ scale: 0.99 }}
+              className={`${cardBase} hover:bg-black hover:text-white`}
+            >
+              <BarChart2Icon className="mx-auto text-current" size={32} />
+              <h3 className="mt-8 text-xl font-bold text-current font-pj">Streamlined</h3>
+              <p className="mt-4 text-base text-current font-pj">
+                Experience a smooth and hassle-free journey from start to finish. Our platform is designed for efficiency and ease of use.
+              </p>
+            </motion.div>
 
-          {/* Card 6 */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.98 }}
-            animate={hasAnimated ? { opacity: 1, scale: 1 } : {}}
-            transition={{ duration: 1.1 }}
-            variants={cardHoverVariants}
-            whileHover="hover"
-            whileTap={{ scale: 0.99 }}
-            className={`${cardBase} hover:bg-black hover:text-white`}
-          >
-            <BarChart2Icon className="mx-auto text-current" size={32} />
-            <h3 className="mt-8 text-xl font-bold text-current font-pj">
-              Comprehensive Analytics and Reporting
-            </h3>
-            <p className="mt-4 text-base text-current font-pj">
-              Gain insights into verification pipelines with dashboards and reports that help you measure and improve processes.
-            </p>
-          </motion.div>
+            {/* Card 6: Secured Servers */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.98 }}
+              animate={hasAnimated ? { opacity: 1, scale: 1 } : {}}
+              transition={{ duration: 1.1 }}
+              variants={cardHoverVariants}
+              whileHover="hover"
+              whileTap={{ scale: 0.99 }}
+              className={`${cardBase} hover:bg-black hover:text-white`}
+            >
+              <PhoneCallIcon className="mx-auto text-current" size={32} />
+              <h3 className="mt-8 text-xl font-bold text-current font-pj">Secured Servers</h3>
+              <p className="mt-4 text-base text-current font-pj">
+                Your data is protected with robust security measures and encrypted servers, ensuring privacy and safety at all times.
+              </p>
+            </motion.div>
         </div>
       </div>
     </motion.section>
